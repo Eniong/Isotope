@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <title>Pangasinan Universities and Colleges</title>
+    <link rel="stylesheet" href="css/framework7.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="apple-touch-icon" href="img/f7-icon-square.png">
+    <link rel="icon" href="img/f7-icon.png">
+
+
+</head>
+    
+    <style type="text/css">
+
+      
+        
+    .grid > div {
+            display: block;
+            float: left;
+            width: 45%;
+            height: auto;
+            padding: 25px;
+            margin-right: 3%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            background: rgba(255,255,255,0.70);
+
+        }
+
+    </style>
+
+
+<body>
+    <div id="app">
+        <div class="statusbar"></div>
+        <div class="view view-init view-right" data-url="/">
+        <div class="page">
+            
+
+        <!-- navbar-start -->
+            <div class="navbar">
+                <div class="navbar-inner">
+
+
+
+                     <div class="title sliding">Pangasinan 
+                        <div class="subtitle">
+                            Universities and Colleges
+                        </div>
+                     </div>
+
+
+                      <div class="right">
+                          <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
+                            <i class="icon f7-icons ios-only">search_strong</i>
+                            <i class="icon material-icons md-only">search</i>
+                          </a>
+                       </div>
+
+                       <form data-search-container=".components-list" data-search-in="a" class="searchbar searchbar-expandable searchbar-components searchbar-init">
+                          <div class="searchbar-inner">
+                            <div class="searchbar-input-wrap">
+                              <input type="search" class="quicksearch" placeholder="Search"/>
+                              <i class="searchbar-icon"></i>
+                              <span class="input-clear-button"></span>
+                            </div>
+                            <span class="searchbar-disable-button">Cancel</span>
+                          </div>
+                        </form> 
+                    </div>
+
+                    <div class="subnavbar">
+                        <div class="subnavbar-inner">
+                            <a class="sheet-open" data-sheet=".demo-sheet"><i class="material-icons">sort</i></a>
+                        </div> 
+                    </div>
+    
+        </div>
+        <!-- end-navbar -->
+        
+            <div class="page-content">
+                    <div class="block">
+
+
+                        
+                   
+                    <div class="grid clearfix">
+
+
+                            <div class="element-item data-sheet lingayen - med - technology - business" data-category="data-sheet">
+                                <center><img src="img/psu.png" height="100" width="100"></center> 
+                                Pangasinan State University
+                                <p hidden="">Lingayen, PSU</p><br><br>
+                                <a href="/psu/" class="button button-fill button-small">View more</a>
+                            </div>
+
+                            <div class="element-item data-sheet dagupan - med - technology - business" data-category="data-sheet">
+                                <center><img src="img/upang.png" height="100" width="100"></center> 
+                                University of Pangasinan
+                                 <p hidden="">Dagupan, Upang</p><br><br>
+                                <a href="/upang/" class="button button-fill button-small">View more</a>
+                            </div>
+
+                            <div class="element-item data-sheet dagupan - med - business" data-category="data-sheet">
+                                <center><img src="img/lnu.png" height="100" width="100"></center> 
+                                Lyceum Northwestern University
+                                <p hidden="">Dagupan, LNU</p><br><br>
+                                <a href="/lnu/" class="button button-fill button-small">View more</a>
+                            </div>
+
+                            <div class="element-item data-sheet dagupan - technology - business" data-category="data-sheet">
+                                <center><img src="img/ul.png" height="100" width="100"></center> 
+                                University of Luzon
+                                <p hidden="">Dagupan, UL</p><br><br>
+                                <a href="/ul/" class="button button-fill button-small">View more</a>
+                            </div>
+
+                            <div class="element-item data-sheet dagupan - technology" data-category="data-sheet">
+                                <center><img src="img/sti.png" height="100" width="100"></center> 
+                                STI
+                                <p hidden="">Dagupan, STI</p><br><br>
+                                <a href="/sti/" class="button button-fill button-small">View more</a>
+                            </div>
+
+
+                            <div class="element-item data-sheet dagupan - technology - business" data-category="data-sheet">
+                                <center><img src="img/cdd.png" height="100" width="100"></center> 
+                                Colegio de Dagupan
+                                <p hidden="">Dagupan, CDD</p><br><br>
+                                <a href="/cdd/" class="button button-fill button-small">View more</a>
+                            </div>
+                        
+                        
+                    </div>
+                     </div>
+                    
+            </div> <!-- page-content-end -->
+
+            <div class="sheet-modal demo-sheet">
+                <div class="toolbar">
+                    <div class="toolbar-inner">
+                        <div class="left"></div>
+                          <div class="right">
+                            <a class="link sheet-close">Close</a>
+                          </div>
+                    </div>
+                </div>
+
+
+                <div class="sheet-modal-inner">
+                    <div class="page-content">
+                    
+                            <div class="row">
+                                    <div class="block list col-50">
+                                    <div class="block-header">Location</div>
+                                            <ul class="options">
+                                            <li><input type="checkbox" value=".lingayen" id="lingayen"><label for="lingayen">Lingayen</label></li>
+
+                                            <li><input type="checkbox" value=".dagupan" id="dagupan"><label for="dagupan">Dagupan</label></li>
+
+                                            <li><input type="checkbox" value=".video" id="video"><label for="video">Urdaneta</label></li>
+
+                                            </ul>
+                                    </div>
+
+                                    <div class="block list col-50">
+                                     <div class="block-header">Courses</div>
+                                            <ul class="options">
+                                                <li class="input-all"><input class="all" type="checkbox" value=".technology" id="technology"><label for="technology">Technology</label></li>
+                                                <li><input type="checkbox" value=".med" id="med"><label for="med">Medicine</label></li>
+                                                <li><input type="checkbox" value=".business" id="business"><label for="business">Business</label></li>
+                                            </ul>
+                                    </div>
+
+                            </div>
+
+                      
+                    </div>
+                </div>
+
+            </div>
+
+                
+
+
+
+           
+
+
+    <!-- end-page -->
+       
+
+
+
+    </div>
+    </div>
+
+    </div>
+
+    <!-- script-isotope -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/isotope.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <!-- script-framework -->
+    <script src="js/framework7.min.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/app.js"></script>
+
+
+
+    
+</body>
+</html>
