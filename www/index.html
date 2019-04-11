@@ -100,7 +100,7 @@
 
                     <div class="subnavbar">
                         <div class="subnavbar-inner">
-                            <a class="sheet-open" data-sheet=".demo-sheet"><i class="material-icons">sort</i>
+                            <a class="sheet-open button button-outline button-small color-white" data-sheet=".demo-sheet"><i class="material-icons">sort</i>
                             </a>
 <!-- 
                             <div class="output">
@@ -121,7 +121,7 @@
                     <div class="center grid clearfix">
 
 
-                            <div class="element-item data-sheet lingayen - med - technology - business - education - hm - math - criminology - agriculture - low" data-category="data-sheet">
+                            <div class="element-item data-sheet - alaminos - lingayen - med - technology - business - education - hm - math - criminology - agriculture - low" data-category="data-sheet">
                                 <center><img src="img/psu.png" height="100" width="100"></center>
                                 <div class="text-color-gray">
                                      Pangasinan State University
@@ -132,14 +132,14 @@
                                  <p hidden="">Lingayen, PSU</p><br>
                             </div>
 
-                            <div class="element-item data-sheet dagupan - med -  technology - business - education - hm - tourism - math sem" data-category="data-sheet">
+                            <div class="element-item data-sheet dagupan - med -  technology - business - education - hm - tourism - math - high" data-category="data-sheet">
                                 <center><img src="img/upang.png" height="100" width="100">
                                 </center>
                                  <div class="text-color-gray"> University of Pangasinan</div>
                                  <hr> 
                                  <p class="">
-                                    P20,000-P25,000 <br>
-                                     <i>per semester</i>
+                                    P530
+                                     <i>per unit</i>
                                  </p>
                                 <a href="/upang/" class="button button-fill button-small">View more</a>
                                 <p hidden="">Dagupan, Upang</p><br>
@@ -185,15 +185,15 @@
                             </div>
 
 
-                            <div class="element-item data-sheet dagupan - technology - business - accountancy - education - med - year" data-category="data-sheet">
+                            <div class="element-item data-sheet dagupan - technology - business - accountancy - education - med - medium" data-category="data-sheet">
                                 <center><img src="img/cdd.png" height="100" width="100"></center>
                                 <div class="text-color-gray">
                                     Colegio de Dagupan
                                 </div> 
                                 <hr>
                                 <p class="">
-                                    P26,000-P30,000 <br>
-                                     <i>per year</i>
+                                    P500
+                                     <i>per unit</i>
                                  </p>
                                 <a href="/cdd/" class="button button-fill button-small">View more</a>
                                 <p hidden="">Dagupan, CDD</p><br><br>
@@ -215,7 +215,7 @@
 
 
                             <div class="element-item data-sheet dagupan - med - accountancy - technology - education - criminology - hm - medium" data-category="data-sheet">
-                                <center><img src="img/Pimsat.png" height="100" width="100"></center> 
+                                <center><img src="img/pimsat.png" height="100" width="100"></center> 
                                 <div class="text-color-gray">
                                     PIMSAT
                                 </div>
@@ -312,7 +312,8 @@
                     <div class="page-content">
                     
                             <div class="row">
-                                    <div class="block list col-40">
+
+                                    <div class="block list">
                                     <div class="block-header">Location</div>
                                             <ul class="options">
                                             <li><input type="checkbox" value=".lingayen" id="lingayen"><label for="lingayen">Lingayen</label></li>
@@ -328,28 +329,8 @@
                                             </ul>
                                     </div>
 
-                                    <div class="block list col-60">
-                                     <div class="block-header">Courses</div>
-                                            <ul class="options">
-                                                <li class="input-all"><input class="all" type="checkbox" value=".technology" id="technology"><label for="technology">Technology</label></li>
-                                                <li><input type="checkbox" value=".med" id="med"><label for="med">Medicine</label></li>
-                                                <li><input type="checkbox" value=".business" id="business"><label for="business">Business</label></li>
-                                                <li><input type="checkbox" value=".math" id="math"><label for="math">Math</label></li>
-                                                <li><input type="checkbox" value=".education" id="education"><label for="education">Education</label></li>
-                                                <li><input type="checkbox" value=".agriculture" id="agriculture"><label for="agriculture">Agriculture</label></li>
-                                                <li><input type="checkbox" value=".criminology" id="criminology"><label for="criminology">Criminology</label></li>
-                                                <li><input type="checkbox" value=".accountancy" id="accountancy"><label for="accountancy">Accountancy</label></li>
-                                                <li><input type="checkbox" value=".tourism" id="tourism"><label for="tourism">Tourism</label></li>
-                                                <li><input type="checkbox" value=".law" id="law"><label for="law">Law</label></li>
-                                                <li><input type="checkbox" value=".hm" id="hm"><label for="hm">Hospitality Mgmt.</label></li>
-                                            </ul>
-                                    </div>
 
-                            </div>
-
-                            <div class="row">
-                                
-                                    <div class="block list col-50">
+                                    <div class="block list">
                                      <div class="block-header">Tuition Fee (per unit)</div>
                                             <ul class="options">
                                                 <li class="input-all"><input class="all" type="checkbox" value=".low" id="low"><label for="low">P0-P200</label></li>
@@ -358,15 +339,37 @@
                                             </ul>
                                     </div>
 
-                                     <div class="block list col-50">
-                                     <div class="block-header">Tuition Fee (per sem/year)</div>
-                                            <ul class="options">
-                                                <li><input type="checkbox" value=".sem" id="sem"><label for="sem">P0-P25000 /sem</label></li>
-                                                <li><input type="checkbox" value=".year" id="year"><label for="year">P0-P30,000 /yr</label></li>
+                                    
+
+                            </div>
+
+                          
+                                
+                                    <div class="block list">
+                                     <div class="block-header">Courses</div>
+                                          <div class="row">
+                                            <ul class="options col-50">
+                                                <li class="input-all"><input class="all" type="checkbox" value=".technology" id="technology"><label for="technology">Technology/Engr.</label></li>
+                                                <li><input type="checkbox" value=".med" id="med"><label for="med">Medicine</label></li>
+                                                <li><input type="checkbox" value=".business" id="business"><label for="business">Business</label></li>
+                                                <li><input type="checkbox" value=".math" id="math"><label for="math">Math</label></li>
+                                                <li><input type="checkbox" value=".education" id="education"><label for="education">Education</label></li>
+                                                <li><input type="checkbox" value=".agriculture" id="agriculture"><label for="agriculture">Agriculture</label></li>
                                                 
                                             </ul>
+
+                                            <ul class="options col-50">
+                                                
+                                                <li><input type="checkbox" value=".criminology" id="criminology"><label for="criminology">Criminology</label></li>
+                                                <li><input type="checkbox" value=".accountancy" id="accountancy"><label for="accountancy">Accountancy</label></li>
+                                                <li><input type="checkbox" value=".tourism" id="tourism"><label for="tourism">Tourism</label></li>
+                                                <li><input type="checkbox" value=".law" id="law"><label for="law">Law</label></li>
+                                                <li><input type="checkbox" value=".hm" id="hm"><label for="hm">Hospitality Mgmt.</label></li>
+                                            </ul>
+                                        </div>
                                     </div>
-                            </div>
+
+                       
                       
                     </div>
                 </div>
