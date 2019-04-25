@@ -71,7 +71,7 @@ $checkboxes.change( function() {
   });
 
   // combine inclusive filters
-  var filterValue = inclusives.length ? inclusives.join(', ') : '*';
+  var filterValue = inclusives.length ? inclusives.join(', ') : 'filter';
 
   $output.text( filterValue );
   $grid.isotope({ filter: filterValue });

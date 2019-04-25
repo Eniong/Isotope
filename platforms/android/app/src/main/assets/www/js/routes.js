@@ -17,6 +17,43 @@ var routes = [
     url: './pages/psu.html',
     name: 'psu',
   },
+
+  {
+    path: '/upang/',
+    url: './pages/upang.html',
+    name: 'upang',
+  },
+
+  {
+    path: '/ul/',
+    url: './pages/ul.html',
+    name: 'ul',
+  },
+
+
+
+  {
+    path: '/lnu/',
+    url: './pages/lnu.html',
+    name: 'lnu',
+  },
+
+
+
+  {
+    path: '/cdd/',
+    url: './pages/cdd.html',
+    name: 'cdd',
+  },
+
+
+  {
+    path: '/sti/',
+    url: './pages/sti.html',
+    name: 'sti',
+  },
+
+
   // Right Panel pages
   {
     path: '/panel-right-1/',
