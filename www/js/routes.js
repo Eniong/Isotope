@@ -53,6 +53,49 @@ var routes = [
     name: 'sti',
   },
 
+  {
+    path: '/kingfisher/',
+    url: './pages/kingfisher.html',
+    name: 'kingfisher',
+  },
+
+  {
+    path: '/pimsat/',
+    url: './pages/pimsat.html',
+    name: 'pimsat',
+  },
+
+   {
+    path: '/pass/',
+    url: './pages/pass.html',
+    name: 'pass',
+  },
+
+  {
+    path: '/csjda/',
+    url: './pages/csjda.html',
+    name: 'csjda',
+  },
+
+  {
+    path: '/adelphi/',
+    url: './pages/adelphi.html',
+    name: 'adelphi',
+  },
+
+   {
+    path: '/pcst/',
+    url: './pages/pcst.html',
+    name: 'pcst',
+  },
+
+
+   {
+    path: '/vmuf/',
+    url: './pages/vmuf.html',
+    name: 'vmuf',
+  },
+
 
   // Right Panel pages
   {
