@@ -96,6 +96,18 @@ var routes = [
     name: 'vmuf',
   },
 
+  {
+    path: '/goldenwest/',
+    url: './pages/goldenwest.html',
+    name: 'goldenwest',
+  },
+
+  {
+    path: '/ucu/',
+    url: './pages/ucu.html',
+    name: 'ucu',
+  },
+
 
   // Right Panel pages
   {
