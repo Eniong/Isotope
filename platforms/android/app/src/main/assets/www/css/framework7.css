@@ -2283,6 +2283,7 @@ html.with-statusbar.device-iphone-x .framework7-root {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #252a3e !important;
 }
 .subnavbar .title {
   position: relative;
