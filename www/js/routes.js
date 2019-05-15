@@ -108,6 +108,49 @@ var routes = [
     name: 'ucu',
   },
 
+  {
+    path: '/stcf/',
+    url: './pages/stcf.html',
+    name: 'stcf',
+  },
+
+   {
+    path: '/nlac/',
+    url: './pages/nlac.html',
+    name: 'nlac',
+  },
+
+   {
+    path: '/dwcu/',
+    url: './pages/dwcu.html',
+    name: 'dwcu',
+  },
+
+   {
+    path: '/wcc/',
+    url: './pages/wcc.html',
+    name: 'wcc',
+  },
+
+  {
+    path: '/pu/',
+    url: './pages/pu.html',
+    name: 'pu',
+  },
+
+   {
+    path: '/scc/',
+    url: './pages/scc.html',
+    name: 'scc',
+  },
+
+
+  {
+    path: '/absury/',
+    url: './pages/absury.html',
+    name: 'absury',
+  },
+
 
   // Right Panel pages
   {
